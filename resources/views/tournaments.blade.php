@@ -1,4 +1,4 @@
-@extends('layouts.master')
+@extends('layouts.layout')
 
 @section('content')
 
@@ -14,7 +14,7 @@ if(isset($tournaments)) {
         
         <div class="row">
             <div class="col-md-12">
-                <?php echo '<a href="tournament/details/'.explode(':', $t->id)[2].'">'.$t->name.'</a>'; ?>
+                <?php echo '<a href="tournament/details/'.explode(':', $t->id)[2].'"><i class="fa fa-futbol-o" aria-hidden="true"></i> '.$t->name.'</a>'; ?>
             </div>
          </div>
 <?php
@@ -22,9 +22,11 @@ if(isset($tournaments)) {
 ?>
 
 
-
 </section>
 <?php
+}
+else {
+	echo 'tournaments page';
 }
 ?>
 

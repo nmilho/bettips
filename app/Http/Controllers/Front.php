@@ -17,7 +17,7 @@ class Front extends Controller
      */
     public function index()
     {
-        return View('tournaments');
+        return View('index');
     }
 
     /**
@@ -34,7 +34,8 @@ class Front extends Controller
 
         //return dd($tournaments);
 
-        return View('tournaments', [ 'tournaments' => $tournaments ]);
+        //return View('tournaments', [ 'tournaments' => $tournaments ]);
+        return View('tournaments');
     }
 
     /**
