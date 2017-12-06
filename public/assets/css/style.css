@@ -318,7 +318,7 @@ Separator
     bottom:0;
     height: 2px;
     width: 50px;
-    background: #ff7200;
+    background: #02d662;
     content:"";
 
 }
@@ -335,7 +335,7 @@ Separator
     bottom:0;
     height: 2px;
     width: 70px;
-    background: #ff7200;
+    background: #02d662;
     content:"";
 }
 
@@ -390,22 +390,22 @@ Button
     font-size:0.8125rem;
     border-radius: 0px;
     margin-top: 20px;
-    background-color: #ff7200;
+    background-color: #02d662;
     transition: .5s;
-    border: 1px solid #ff7200;
+    border: 1px solid #02d662;
     font-family: 'Montserrat', sans-serif;
     font-weight: 400;
 }
 
 .btn:hover {
-    background-color:#f4720a;
+    background-color:#00b351;
     color: #fff;
     text-decoration: none;
-    border: 1px solid #f4720a;
+    border: 1px solid #00b351;
 }
 
 .btn-primary {
-    background-color: #ff7200;
+    background-color: #02d662;
     transition: .5s;
     padding: 9px 30px;
 }
@@ -562,15 +562,15 @@ input::-ms-input-placeholder {
     margin: 15px auto;
 }
 .navbar-default .navbar-nav>li>a:hover, .navbar-default .navbar-nav>li>a:focus{
-    color:#ff7200;
+    color:#02d662;
     background: transparent;
 }
 .main_menu_bg .navbar {}
 
 .main_menu_bg .navbar-default .navbar-nav>.active>a, .navbar-default .navbar-nav>.active>a:hover, .navbar-default .navbar-nav>.active>a:focus{
-    color: #ff7200;
+    color: #02d662;
     padding-bottom: 22px;
-    border-bottom: 1px solid #ff7200;
+    border-bottom: 1px solid #02d662;
     background: transparent;
 
 }
@@ -615,12 +615,12 @@ input::-ms-input-placeholder {
 
 .dropdown-menu .navbar-form .form-group input[type="text"]{
     background-color:rgba(34, 61, 97, 0.68);
-    border: 1px solid #ff7200;
-    color:#ff7200;
+    border: 1px solid #02d662;
+    color:#02d662;
     width: 300px;
 }
 .dropdown-menu .navbar-form .form-group .form-control::-webkit-input-placeholder{
-    color: #ff7200;
+    color: #02d662;
     opacity: 1; 
 }
 .dropdown-menu .navbar-form {
@@ -679,7 +679,7 @@ input::-ms-input-placeholder {
 }
 
 .owl-theme .owl-dots .owl-dot.active span, .owl-theme .owl-dots .owl-dot:hover span {
-    background: #ff7200;
+    background: #02d662;
 }
 .owl-theme .owl-dots .owl-dot span {
     -webkit-border-radius: 0px;
@@ -912,7 +912,7 @@ input::-ms-input-placeholder {
 }
 
 .skillbar-bar.blue {
-    background-color: #ff7200;
+    background-color: #02d662;
     height: 5px;
     width: 0;
 }
@@ -938,7 +938,7 @@ input::-ms-input-placeholder {
     font-size:2.8125rem;
 }
 .counter .main_counter_area .single_counter i{
-    color:#ff7200;
+    color:#02d662;
     font-size:1.875rem;
     display: inline-block;
     margin-top:20px;
@@ -1051,7 +1051,7 @@ input::-ms-input-placeholder {
 }
 .team .single_team_content .single_team_text_overlay .team_overlay_socail a:hover i{
     background: #fff;
-    color:#ff7200;
+    color:#02d662;
 }
 
 
@@ -1118,7 +1118,7 @@ input::-ms-input-placeholder {
 }
 button.btn-md:focus, .btn:active:focus, .btn.active:focus, .btn.focus, .btn:active.focus, .btn.active.focus{
     outline:none;
-    color:#ff7200;
+    color:#02d662;
 }
 button.btn-md {
     text-align: center;
@@ -1130,15 +1130,15 @@ button.btn-md {
     margin-top: 0px;
     background-color: transparent;
     transition: .5s;
-    border: 0px solid #ff7200;
+    border: 0px solid #02d662;
     font-family: 'Montserrat', sans-serif;
     font-weight: 400;
 }
 button.btn-md:hover {
     background-color: transparent;
-    color: #ff7200;
+    color: #02d662;
     text-decoration: none;
-    border: 0px solid #f4720a;
+    border: 0px solid #00b351;
 }
 .portfolio .toolbar{
     margin-bottom:50px;
@@ -1224,7 +1224,7 @@ button.btn-md:hover {
     background: transparent;
 }
 .grid_item_overlay a:hover i{
-    color:#ff7200;
+    color:#02d662;
     background: #fff;
 }
 
@@ -1462,7 +1462,7 @@ button.btn-md:hover {
     line-height: 1.4rem;
 }
 .single_widget ul li a:hover{
-    color:#ff7200;
+    color:#02d662;
 }
 
 .footer_logo{
@@ -1542,8 +1542,8 @@ button.btn-md:hover {
     margin-top:10px;
 }
 .footer .flowus a i:hover{
-    color:#ff7200;
-    border:1px solid #ff7200;
+    color:#02d662;
+    border:1px solid #02d662;
 }
 
 .copyright_text{
@@ -1561,7 +1561,7 @@ button.btn-md:hover {
 }
 .copyright_text p a{
     padding:0px 10px;
-    color:#ff7200;
+    color:#02d662;
 }
 
 
@@ -1586,7 +1586,7 @@ button.btn-md:hover {
 }
 
 .scrollup:hover {
-    background: #ff7200;
+    background: #02d662;
     opacity: 1;
 }
 
