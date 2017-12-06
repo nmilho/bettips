@@ -87,7 +87,7 @@
 
                         <div class="col-sm-6 col-xs-12">
                             <div class="copyright_text">
-                                <p class=" wow fadeInRight" data-wow-duration="1s">Powered by <a href="https://bootstrapthemes.co">Bootstrap Themes</a>2016. MCWeb All Rights Reserved</p>
+                                <p class=" wow fadeInRight" data-wow-duration="1s">Powered by <a href="https://bootstrapthemes.co">Bootstrap Themes</a>2016. <a href="#">MCWeb</a> All Rights Reserved</p>
                             </div>
                         </div>
 
