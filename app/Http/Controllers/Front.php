@@ -7,6 +7,7 @@ use Illuminate\Http\Request;
 use App\Http\Requests;
 use App\Http\Controllers\Controller;
 
+
 class Front extends Controller
 {
     /**
@@ -16,7 +17,7 @@ class Front extends Controller
      */
     public function index()
     {
-        return 'index page';
+        return View('tournaments');
     }
 
     /**
@@ -26,7 +27,14 @@ class Front extends Controller
      */
     public function tournaments()
     {
-        return 'tournaments page';
+        $jsondata = file_get_contents('https://api.sportradar.us/soccer-xt3/eu/pt/tournaments.json?api_key=xm6fyg38c55seyh7du4sfdvt');
+
+        $json = json_decode($jsondata);
+        $tournaments = $json->tournaments;
+
+        //return dd($tournaments);
+
+        return View('tournaments', [ 'tournaments' => $tournaments ]);
     }
 
     /**
