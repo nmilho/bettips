@@ -11,6 +11,6 @@
 |
 */
 
-Route::get('/', function () {
-    return view('welcome');
-});
+Route::get('/','Front@index');
+Route::get('/tournaments','Front@tournaments');
+Route::get('/tournament/details/{id}','Front@tournament_details');
