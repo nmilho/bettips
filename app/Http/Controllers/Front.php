@@ -49,6 +49,38 @@ class Front extends Controller
         return 'tournament ' . $id . ' detail page';
     }
 
+
+    /**
+     * Display a listing of the resource.
+     *
+     * @return \Illuminate\Http\Response
+     */
+    public function tips()
+    {
+        return View('tips');
+    }
+
+    /**
+     * Display a listing of the resource.
+     *
+     * @return \Illuminate\Http\Response
+     */
+    public function tipsters()
+    {
+        return View('tipsters');
+    }
+
+    /**
+     * Display a listing of the resource.
+     *
+     * @return \Illuminate\Http\Response
+     */
+    public function contact()
+    {
+        return View('contact');
+    }
+
+
     /**
      * Show the form for creating a new resource.
      *

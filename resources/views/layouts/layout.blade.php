@@ -44,32 +44,6 @@
         <div class="culmn">
             @include('layouts.partials._header')
 
-            @include('layouts.partials._homesection')
-
-            @include('layouts.partials._servicessection')
-
-            @include('layouts.partials._featuressection')
-
-            @include('layouts.partials._videosection')
-
-            @include('layouts.partials._aboutsection')
-
-            @include('layouts.partials._countersection')
-
-            @include('layouts.partials._otherservicessection')
-
-            @include('layouts.partials._teamsection')
-
-            @include('layouts.partials._choosesection')
-
-            @include('layouts.partials._portfoliosection')
-
-            @include('layouts.partials._testimonialsection')
-
-            @include('layouts.partials._clogosection')
-
-            @include('layouts.partials._contactsection')
-
             @yield('content')
 
             @include('layouts.partials._footer')

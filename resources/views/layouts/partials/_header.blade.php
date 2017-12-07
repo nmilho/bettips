@@ -1,4 +1,4 @@
-<header id="main_menu" class="header navbar-fixed-top">            
+<header id="main_menu" class="header navbar-fixed-top menu-scroll">            
     <div class="main_menu_bg">
         <div class="container">
             <div class="row">

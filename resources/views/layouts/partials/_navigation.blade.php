@@ -23,6 +23,9 @@
             <ul class="nav navbar-nav navbar-right">
                 <li><a href="/">HOME</a></li>
                 <li><a href="/tournaments">Tournaments</a></li>
+                <li><a href="/tips">Tips</a></li>
+                <li><a href="/tipsters">Tipsters</a></li>
+                <li><a href="/contact">Contact</a></li>
             </ul>
 
         </div>

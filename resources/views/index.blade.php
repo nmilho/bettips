@@ -2,13 +2,14 @@
 
 @section('content')
 
-<!-- Services Section -->
-<section id="tournaments">
-	<div class="row">
-	    <div class="col-md-12">
-	        <p>Index</p>
-	    </div>
-	 </div>
-</section>
+	@include('layouts.partials._homesection')
+
+    @include('layouts.partials._featuressection')
+
+    @include('layouts.partials._videosection')
+
+    @include('layouts.partials._servicessection')
+
+    @include('layouts.partials._clogosection')
 
 @endsection
