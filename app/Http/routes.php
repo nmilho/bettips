@@ -12,8 +12,10 @@
 */
 
 Route::get('/','Front@index');
+Route::get('/layout','Front@layout');
 Route::get('/tournaments','Front@tournaments');
 Route::get('/tournament/details/{id}','Front@tournament_details');
 Route::get('/tips','Front@tips');
 Route::get('/tipsters','Front@tipsters');
 Route::get('/contact','Front@contact');
+Route::get('/bettingoddsapi', 'Front@bettingoddsapi');
